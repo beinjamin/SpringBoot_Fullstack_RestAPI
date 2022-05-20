@@ -26,23 +26,27 @@ public class SpringbootBackendApplication implements CommandLineRunner{
 				.firstName("Jaures")
 				.lastName("FOTSING")
 				.email("jauresbeinajmin@gmail.com")
+				.proffesion("Döveloppeur Web")
 				.build();
 		
 		Employee employee2 = Employee.builder()
 				.firstName("Marc")
 				.lastName("Papimouss")
 				.email("marc@gmail.com")
+				.proffesion("Mecanicien")
 				.build();
 		
 		Employee employee3 = Employee.builder()
 				.firstName("Hugorisso")
 				.lastName("Ive")
 				.email("ive@gmail.com")
+				.proffesion("Proffeseur")
 				.build();
 		Employee employee4 = Employee.builder()
-				.firstName("JObinno")
+				.firstName("Jobinno")
 				.lastName("Karl")
 				.email("karl@gmail.com")
+				.proffesion("Analyste")
 				.build();
 		
 		employeeRepository.save(employee1);

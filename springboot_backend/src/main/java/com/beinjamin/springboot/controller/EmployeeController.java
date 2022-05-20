@@ -15,7 +15,7 @@ import com.beinjamin.springboot.repository.EmployeeRepository;
 public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
-	@GetMapping("/employee")
+	@GetMapping("/employees")
 	public List<Employee> fetchEmployee(){
 		return employeeRepository.findAll();
 		
